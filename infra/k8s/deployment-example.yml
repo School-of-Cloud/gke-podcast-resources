@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
         - name: demo
-          image: schoolofcloud/demo:latest
+          image: schoolofcloud/demo:0.0.1
