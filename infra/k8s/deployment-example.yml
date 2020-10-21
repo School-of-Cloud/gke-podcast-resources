@@ -11,7 +11,7 @@ spec:
     metadata:
       labels:
         app: demo
-  spec:
-    containers:
-      - name: demo
-        image: schoolofcloud/demo:latest
+    spec:
+      containers:
+        - name: demo
+          image: schoolofcloud/demo:latest
