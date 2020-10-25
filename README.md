@@ -33,9 +33,13 @@ You should also be able to run `kubectl --help` to get a list of available comma
 If you are using Ubuntu I have a helper script which can be found under `./bin/install.sh` 
 
 ```yaml
-cd bin && chmod +x ./install.sh
+cd bin
 
-sudo ./install.sh
+chmod +x ./docker-install.sh
+chmod +x ./k8s-install.sh
+
+sudo ./docker-install.sh
+sudo ./k8s-install.sh
 ```
 
 Ensure that the script runs completely by checking that `kubectl --help` works ok at the end.
