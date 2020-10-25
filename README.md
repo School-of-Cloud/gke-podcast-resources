@@ -120,7 +120,7 @@ kubectl apply -f infra/k8s/deployment-example.yml
 
 ### Services
 
-- ets create a simple service for our cluster. I'm going to focus on a NodePort because thats the most appropriate service to expose our simple pod in this development setting to the outside world. A LoadBalancer would be overkill for this app.
+- Lets create a simple service for our cluster. I'm going to focus on a NodePort because thats the most appropriate service to expose our simple pod in this development setting to the outside world. A LoadBalancer would be overkill for this app.
 
 ```yaml
 apiVersion: apps/v1
